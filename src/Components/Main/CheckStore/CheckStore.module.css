@@ -1,0 +1,72 @@
+.checkStore h2 {
+  font-family: 'Cal Sans';
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.checkStore .header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.checkStore .header h3 {
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.checkStore .header a {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  color: #868686;
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+
+.checkStore .header a:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  color: #FF6428;
+}
+
+.checkStore .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.checkStore .card h4 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.checkStore .card p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+
+.checkStore button {
+  padding: 10px 15px;
+  gap: 10px;
+  background: #FF6428;
+  border: none;
+  border-radius: 40px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px 0px rgb(102 102 102);
+  transition: all 500ms ease;
+}
+
+.checkStore button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}

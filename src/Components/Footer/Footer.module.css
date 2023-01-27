@@ -1,0 +1,115 @@
+.footer {
+  background: #EEEEEE;
+  padding: 80px 160px 40px 160px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.footer .contacts {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.footer .contacts a {
+  transition: all 0.5s ease;
+  text-decoration: none;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.footer .contacts a img {
+  padding-right: 10px;
+}
+
+.footer .contacts a:hover {
+  transition: all 0.5s ease;
+  color: black;
+}
+
+.footer .contacts a:nth-child(1) img {
+  width: 200px;
+  height: 50px;
+}
+
+.footer ol {
+  list-style-type: none;
+}
+
+.footer ol a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(18, 18, 18, 0.6);
+  padding: 0;
+}
+
+.footer ol li a {
+  transition: all 0.5s ease;
+}
+
+.footer ol li a:hover {
+  transition: all 0.5s ease;
+  color: black;
+}
+
+.footer ol li {
+  padding-bottom: 10px;
+  transition: all 0.5s ease;
+}
+
+.footer ol li:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.footer ol li:nth-child(1) {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #121212;
+  padding-bottom: 10px;
+  transition: none;
+  transform: none;
+}
+
+.footer :nth-child(4) ol {
+  display: flex;
+  padding: 0;
+}
+
+.footer :nth-child(4) ol li:nth-child(2) {
+  margin: 0 30px;
+}
+
+.footer :nth-child(4) ol li {
+  opacity: 0.4;
+  transition: all 0.5s ease;
+}
+
+.footer :nth-child(4) ol li:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.footer p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(18, 18, 18, 0.6);
+  text-align: center;
+}
+
+
+

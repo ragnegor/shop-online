@@ -1,0 +1,41 @@
+.sectionBestBrands {
+  padding: 0 112px 180px 112px;
+}
+
+.sectionBestBrands h2 {
+  font-family: 'Cal Sans';
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.sectionBestBrands .brands {
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sectionBestBrands .brands div:nth-child(1){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionBestBrands .brands div:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionBestBrands .brands img {
+  opacity: 0.4;
+  transition: all 0.5s ease;
+}
+
+.sectionBestBrands .brands img:hover {
+  opacity: 1;
+  transform: scale(1.5);
+  transition: all 0.5s ease;
+}
