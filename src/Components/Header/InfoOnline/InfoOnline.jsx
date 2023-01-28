@@ -5,7 +5,7 @@ import style from "./InfoOnline.module.css";
 function InfoOnline(props) {
   return (
     <div className={style.infoOnline}>
-      <h1>{props.data.infoOnline.h1}</h1>
+      <h1>{props.data.infoOnline.h1}<span>{props.data.infoOnline.span}</span> {props.data.infoOnline.h1afterSpan}</h1>
       <p>{props.data.infoOnline.p}</p>
       <div className={style.getApp}>
         <button>{props.data.infoOnline.button}</button>

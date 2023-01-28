@@ -5,7 +5,7 @@ import style from "./BestBrands.module.css";
 function BestBrands (props) {
   return (
     <div className={style.sectionBestBrands}>
-      <h2>{props.data.h2}</h2>
+      <h2>{props.data.h2} <span>{props.data.span}</span></h2>
       <div className={style.brands}>
         <div>
           <a href={props.data.link1.link}><img src={props.data.link1.picture} alt={props.data.link1.alt}/></a>

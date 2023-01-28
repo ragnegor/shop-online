@@ -10,6 +10,10 @@
   margin-bottom: 80px;
 }
 
+.sectionCategories span {
+  color: #FF6428;
+}
+
 .sectionCategories .categories {
   display: flex;
   justify-content: space-between;

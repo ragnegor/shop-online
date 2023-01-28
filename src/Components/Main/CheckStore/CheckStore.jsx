@@ -7,7 +7,7 @@ import dataProductsBestSale from "../../../data/dataProductsBestSale";
 function CheckStore(props) {
   return (
     <section className={style.checkStore}>
-      <h2>{props.data.h2}</h2>
+      <h2>{props.data.h2} <span>{props.data.span}</span></h2>
       <div className={style.header}>
         <h3>{props.data.onBoard.h3}</h3>
         <a href={props.data.onBoard.link.link}>{props.data.onBoard.link.item}</a>

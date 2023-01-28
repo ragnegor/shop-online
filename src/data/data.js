@@ -46,8 +46,9 @@ const data = {
       }
     },
     infoOnline: {
-      h1: "Browse top quality\n" +
-        "Guitars online",
+      h1: "Browse top quality\n",
+      span: "Guitar",
+      h1afterSpan: "online",
       p: "Explore 50k+ latest collections of branded guitars\n" +
         "online with Rhythm.",
       button: "Get the App",
@@ -66,7 +67,8 @@ const data = {
 
   main: {
     chekStore: {
-      h2: "Check out the Store",
+      h2: "Check out the",
+      span: "Store",
       onBoard: {
         h3: "NEW ON THE BOARD",
         link: {
@@ -86,7 +88,8 @@ const data = {
     },
 
     categories : {
-      h2: "Choose based on Categories",
+      h2: "Choose based on",
+      span: "Categories",
       acoustic: {
         picture: acoustic,
         alt: "acoustic",
@@ -114,7 +117,8 @@ const data = {
     },
 
     bestBrands: {
-      h2: "Featuring the Best Brands",
+      h2: "Featuring the",
+      span: " Best Brands",
       link1: {
         link: "#",
         picture: ibanez,

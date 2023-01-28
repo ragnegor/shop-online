@@ -4,7 +4,7 @@ import style from "./Categories.module.css";
 function Categories(props) {
   return (
     <div className={style.sectionCategories}>
-      <h2>{props.data.h2}</h2>
+      <h2>{props.data.h2} <span>{props.data.span}</span></h2>
       <div className={style.categories}>
         <div>
           <img src={props.data.acoustic.picture} alt={props.data.acoustic.alt}/>

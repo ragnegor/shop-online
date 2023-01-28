@@ -5,6 +5,10 @@
   margin-bottom: 85px;
 }
 
+.checkStore span {
+  color: #FF6428;
+}
+
 .checkStore .header {
   display: flex;
   justify-content: space-between;

@@ -17,6 +17,10 @@
   white-space: pre-wrap;
 }
 
+.infoOnline span {
+  color: #FF6428;
+}
+
 .getApp button {
   padding: 18px 48px;
   gap: 10px;
