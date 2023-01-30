@@ -26,7 +26,7 @@ const data = {
   header: {
     navigation: {
       logoShop: {
-        link: "#",
+        link: "/shop-online",
         logo: logoShop,
         alt: "logo"
       },
