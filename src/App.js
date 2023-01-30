@@ -13,7 +13,7 @@ function App() {
     <div>
       <Header data={data.header}/>
       <Routes>
-        <Route path="/" element={<Main data={data.main}/>}/>
+        <Route path="/shop-online" element={<Main data={data.main}/>}/>
         <Route path="/storecatalog" element={<StoreCatalog/>}/>
       </Routes>
       <Footer data={data.footer}/>
