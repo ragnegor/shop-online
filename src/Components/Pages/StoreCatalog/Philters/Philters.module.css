@@ -1,0 +1,37 @@
+.philters {
+  max-width: 135px;
+  margin-left: 10px;
+}
+.philters h3 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.brand, .type, .numberStrings {
+  margin-top: 20px;
+}
+
+.philters .brand div, .type div, .numberStrings div {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  border-radius: 10px;
+  padding: 5px;
+  transition: all 300ms ease;
+}
+
+.philters .brand div:hover, .type div:hover, .numberStrings div:hover {
+  transition: all 500ms ease;
+  color: black;
+}
+
+.philters .brand div, .type div, .numberStrings div {
+  display: flex;
+  align-items: baseline;
+}
+
+.philters input {
+  margin:0 5px 0 10px;
+}

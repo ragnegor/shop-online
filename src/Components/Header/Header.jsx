@@ -8,7 +8,7 @@ function Header (props) {
   return (
     <header className={style.header}>
       <Navigation data={props.data.navigation}/>
-      <InfoOnline data={props.data}/>
+      <InfoOnline infoOnline={props.data.infoOnline}/>
     </header>
   )
 }

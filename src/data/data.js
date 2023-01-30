@@ -32,7 +32,7 @@ const data = {
       },
       nav: {
         link1: {
-          link: "#",
+          link: "/storecatalog",
           item: "Store"
         },
         link2: {

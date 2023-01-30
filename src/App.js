@@ -4,13 +4,18 @@ import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
 import data from "./data/data";
+import {Route, Routes} from "react-router-dom";
+import StoreCatalog from "./Components/Pages/StoreCatalog/StoreCatalog";
 
 
 function App() {
   return (
     <div>
       <Header data={data.header}/>
-      <Main data={data.main}/>
+      <Routes>
+        <Route path="/" element={<Main data={data.main}/>}/>
+        <Route path="/storecatalog" element={<StoreCatalog/>}/>
+      </Routes>
       <Footer data={data.footer}/>
     </div>
   )
