@@ -17,20 +17,15 @@
 .sectionBestBrands .brands {
   height: 230px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.sectionBestBrands .brands div:nth-child(1){
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+.sectionBestBrands .brands .logo {
 
-.sectionBestBrands .brands div:nth-child(2){
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .sectionBestBrands .brands img {

@@ -7,9 +7,13 @@ function Navigation(props) {
     <nav className={style.navigation}>
       <ol>
         <li><Link to={props.data.logoShop.link}><img src={props.data.logoShop.logo} alt={props.data.logoShop.alt}/></Link></li>
-        <li><Link to={props.data.nav.link1.link}>{props.data.nav.link1.item}</Link></li>
-        <li><a href={props.data.nav.link2.link}>{props.data.nav.link2.item}</a></li>
-        <li><a href={props.data.nav.link3.link}>{props.data.nav.link3.item}</a></li>
+        {
+          props.data.nav.map(link =>
+          <li key={link.id}>
+            <Link to={link.link}>{link.item}</Link>
+          </li>
+          )
+        }
       </ol>
     </nav>
   )

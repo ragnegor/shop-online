@@ -22,6 +22,7 @@ import facebook from "../assets/img/icons/Facebook.svg";
 import instagram from "../assets/img/icons/Instagram.svg";
 import twitter from "../assets/img/icons/Twitter.svg";
 
+
 const data = {
   header: {
     navigation: {
@@ -30,20 +31,11 @@ const data = {
         logo: logoShop,
         alt: "logo"
       },
-      nav: {
-        link1: {
-          link: "/shop-online/storecatalog",
-          item: "Store"
-        },
-        link2: {
-          link: "#",
-          item: "Collections"
-        },
-        link3: {
-          link: "#",
-          item: "Support"
-        }
-      }
+      nav: [
+        {"id": 1, "link": "/shop-online/storecatalog", "item": "Store"},
+        {"id": 2, "link": "#", "item": "Collections"},
+        {"id": 3, "link": "#", "item": "Support"}
+      ]
     },
     infoOnline: {
       h1: "Browse top quality\n",
@@ -87,7 +79,7 @@ const data = {
       }
     },
 
-    categories : {
+    categories: {
       h2: "Choose based on",
       span: "Categories",
       acoustic: {
@@ -96,70 +88,28 @@ const data = {
         text: "Acoustic",
         link: "#"
       },
-      electric: {
-        picture: electric,
-        alt: "electric",
-        text: "Electric",
-        link: "#"
-      },
-      basses: {
-        picture: basses,
-        text: "Basses",
-        alt: "basses",
-        link: "#"
-      },
-      collection: {
-        picture: collection,
-        alt: "collection",
-        text: "Collection",
-        link: "#"
-      }
+
+      categoryCards: [
+        {"id": 1, "picture": acoustic, "alt": "acoustic", "text": "Acoustic", "link": "#" },
+        {"id": 2, "picture": electric, "alt": "electric", "text": "Electric", "link": "#" },
+        {"id": 3, "picture": basses, "alt": "basses", "text": "Basses", "link": "#" },
+        {"id": 4, "picture": collection, "alt": "collection", "text": "Collection", "link": "#" },
+      ]
     },
 
     bestBrands: {
       h2: "Featuring the",
       span: " Best Brands",
-      link1: {
-        link: "#",
-        picture: ibanez,
-        alt: "ibanez"
-      },
-      link2: {
-        link: "#",
-        picture: martin,
-        alt: "martin"
-      },
-      link3: {
-        link: "#",
-        picture: fender,
-        alt: "fender"
-      },
-      link4: {
-        link: "#",
-        picture: gibson,
-        alt: "gibson"
-      },
-      link5: {
-        link: "#",
-        picture: taylor,
-        alt: "taylor"
-      },
-      link6: {
-        link: "#",
-        picture: gretch,
-        alt: "gretch"
-      },
-      link7: {
-        link: "#",
-        picture: tacamine,
-        alt: "tacamine"
-      },
-      link8: {
-        link: "#",
-        picture: seagull,
-        alt: "seagull"
-      },
-
+      brands: [
+        {"id": 1, "brandLogo": ibanez, "alt": "ibanez", "link": "#" },
+        {"id": 2, "brandLogo": martin, "alt": "martin", "link": "#" },
+        {"id": 3, "brandLogo": fender, "alt": "fender", "link": "#" },
+        {"id": 4, "brandLogo": gibson, "alt": "gibson", "link": "#" },
+        {"id": 5, "brandLogo": taylor, "alt": "taylor", "link": "#" },
+        {"id": 6, "brandLogo": gretch, "alt": "gretch", "link": "#" },
+        {"id": 7, "brandLogo": tacamine, "alt": "tacamine", "link": "#" },
+        {"id": 8, "brandLogo": seagull, "alt": "seagull", "link": "#" },
+        ]
     }
   },
 
@@ -232,7 +182,7 @@ const data = {
       }
     },
     copyright: "© 2022 Copyright.Rhythm"
-  }
+  },
 }
 
 export default data;

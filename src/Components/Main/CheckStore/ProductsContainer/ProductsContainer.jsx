@@ -13,7 +13,6 @@ function ProductsContainer (props) {
         {
           props.products.map(product =>
             <div key={product.id}>
-              {product.text}
               <ProductPreview picture={product.image}
                               alt={product.alt}
                               title={product.title}
