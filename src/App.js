@@ -7,6 +7,7 @@ import data from "./data/data";
 import {Route, Routes} from "react-router-dom";
 import StoreCatalog from "./Components/Pages/StoreCatalog/StoreCatalog";
 import dataCatalog from "./data/dataCatalog";
+import dataAllGuitars from "./data/dataAllGuitars";
 
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
       <Header data={data.header}/>
       <Routes>
         <Route path="/shop-online" element={<Main data={data.main}/>}/>
-        <Route path="/shop-online/storecatalog" element={<StoreCatalog data={dataCatalog}/>}/>
+        <Route path="/shop-online/storecatalog" element={<StoreCatalog data={dataCatalog.filters}
+                                                                       dataGuitars={dataAllGuitars}
+        />}/>
       </Routes>
       <Footer data={data.footer}/>
     </div>

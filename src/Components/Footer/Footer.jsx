@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Footer.module.css";
+import {Link} from "react-router-dom";
 
 
 function Footer (props) {
@@ -7,7 +8,7 @@ function Footer (props) {
     <footer className={style.footer}>
       <div className={style.container}>
         <div className={style.contacts}>
-          <a href={props.data.contacts.logo.link}><img src={props.data.contacts.logo.picture} alt={props.data.contacts.logo.alt}/></a>
+          <Link to={props.data.contacts.logo.link}><img src={props.data.contacts.logo.picture} alt={props.data.contacts.logo.alt}/></Link>
           <a href={props.data.contacts.email.link}><img src={props.data.contacts.email.icon} alt={props.data.contacts.email.alt}/>{props.data.contacts.email.mail}</a>
           <a href={props.data.contacts.location.link}><img src={props.data.contacts.location.icon} alt={props.data.contacts.location.alt}/>{props.data.contacts.location.city}</a>
         </div>

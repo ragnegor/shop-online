@@ -116,7 +116,7 @@ const data = {
   footer: {
     contacts: {
       logo: {
-        link: "#",
+        link: "/shop-online",
         picture: logoShop,
         alt: "logo"
       },

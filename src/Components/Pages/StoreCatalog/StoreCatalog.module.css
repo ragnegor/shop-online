@@ -1,6 +1,9 @@
 .store {
   position: relative;
-  display: block;
+}
+
+.catalog {
+  display: flex;
 }
 
 .store::after {
