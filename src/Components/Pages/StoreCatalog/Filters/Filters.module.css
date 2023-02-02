@@ -1,0 +1,11 @@
+.filters {
+  max-width: 135px;
+  margin-left: 10px;
+}
+.filters h3 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 20px;
+
+}

@@ -1,0 +1,23 @@
+.checkBox {
+  font-family: 'Poppins';
+
+  font-size: 16px;
+  color: #666666;
+  border-radius: 10px;
+  padding: 5px;
+  transition: all 500ms ease;
+}
+
+checkBox input,label {
+  transition: all 500ms ease;
+}
+
+.checkBox input,label:hover {
+  transition: all 500ms ease;
+  color: black;
+  cursor: pointer;
+}
+
+.checkBox input {
+  margin:0 5px 0 10px;
+}
