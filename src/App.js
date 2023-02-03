@@ -16,7 +16,7 @@ function App() {
       <Header data={data.header}/>
       <Routes>
         <Route path="/shop-online" element={<Main data={data.main}/>}/>
-        <Route path="/shop-online/storecatalog" element={<StoreCatalog data={dataCatalog.filters}
+        <Route path="/shop-online/storecatalog"  element={<StoreCatalog data={dataCatalog.filters}
                                                                        dataGuitars={dataAllGuitars}
         />}/>
       </Routes>
