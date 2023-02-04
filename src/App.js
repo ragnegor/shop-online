@@ -4,10 +4,11 @@ import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
 import data from "./data/data";
-import {Route, Routes} from "react-router-dom";
+import {Navigate, Route, Routes} from "react-router-dom";
 import StoreCatalog from "./Components/Pages/StoreCatalog/StoreCatalog";
 import dataCatalog from "./data/dataCatalog";
 import dataAllGuitars from "./data/dataAllGuitars";
+import React from "react";
 
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
     <div>
       <Header data={data.header}/>
       <Routes>
+        <Route path="/" element={ <Navigate to="/shop-online" /> } />
         <Route path="/shop-online" element={<Main data={data.main}/>}/>
         <Route path="/shop-online/storecatalog"  element={<StoreCatalog data={dataCatalog.filters}
-                                                                       dataGuitars={dataAllGuitars}
+                                                                        dataGuitars={dataAllGuitars}btnText={data.main.chekStore.onBoard.button}
         />}/>
       </Routes>
       <Footer data={data.footer}/>

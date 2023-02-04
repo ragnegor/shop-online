@@ -1,7 +1,7 @@
 // ProductsBestSale
-import ActivePrecisionBassPHV from "../assets/img/products/productBestSalle/ActivePrecision Bass®PHV.svg";
-import RedondoSpecial from "../assets/img/products/productBestSalle/RedondoSpecial.svg";
-import ProfessionalIIStratocaster from "../assets/img/products/productBestSalle/ProfessionalIIStratocaster®.svg";
+import ActivePrecisionBassPHV from "../assets/img/products/productBestSalle/Active Precision Bass® PH V.png";
+import RedondoSpecial from "../assets/img/products/productBestSalle/Redondo Special.png";
+import ProfessionalIIStratocaster from "../assets/img/products/productBestSalle/Professional II Stratocaster®.png";
 
 
 

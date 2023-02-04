@@ -1,7 +1,7 @@
 // ProductsOnBoard
-import lesPaul from "../assets/img/products/productOnBoard/TheEssentialLesPaul.svg";
-import J45 from "../assets/img/products/productOnBoard/J-45Standard.svg";
-import Hummingbird from "../assets/img/products/productOnBoard/HummingbirdStandard.svg";
+import lesPaul from "../assets/img/products/productOnBoard/The Essential Les Paul.png";
+import J45 from "../assets/img/products/productOnBoard/J-45 Standard.png";
+import Hummingbird from "../assets/img/products/productOnBoard/Hummingbird Standard.png";
 
 
 

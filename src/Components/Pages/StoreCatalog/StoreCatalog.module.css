@@ -4,6 +4,7 @@
 
 .catalog {
   display: flex;
+  justify-content: space-between;
 }
 
 .store::after {

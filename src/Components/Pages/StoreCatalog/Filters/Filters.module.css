@@ -1,6 +1,8 @@
 .filters {
   max-width: 135px;
   margin-left: 10px;
+  width: 100%;
+  margin-right: 50px;
 }
 .filters h3 {
   font-family: 'Poppins';

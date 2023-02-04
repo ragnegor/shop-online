@@ -4,7 +4,7 @@ import ProductPreview from "../../../Products/ProductPreview/ProductPreview";
 
 function ProductsContainer (props) {
   return(
-    <div className={style.newOnTheBoard}>
+    <div className={style.ProductsContainer}>
       <div className={style.header}>
         <h3>{props.title}</h3>
         <a href={props.viewAlllink}>{props.viewAll}</a>
@@ -12,7 +12,7 @@ function ProductsContainer (props) {
       <div className={style.products}>
         {
           props.products.map(product =>
-            <div key={product.id}>
+            <div className={style.card} key={product.id}>
               <ProductPreview picture={product.image}
                               alt={product.alt}
                               title={product.title}

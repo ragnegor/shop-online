@@ -1,8 +1,17 @@
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 320px;
+}
+
 .card h4 {
   font-family: 'Poppins';
   font-weight: 600;
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: auto;
 }
 
 card p {
@@ -11,3 +20,9 @@ card p {
   font-size: 14px;
   color: #666666;
 }
+
+.card img {
+  width: 100%;
+  max-height: 150px;
+}
+

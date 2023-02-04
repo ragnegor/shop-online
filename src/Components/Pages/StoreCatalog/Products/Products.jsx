@@ -14,6 +14,9 @@ function Products(props) {
                           alt={guitars.alt}
                           title={guitars.title}
                           price={guitars.price}
+                          btnText={props.btnText}
+                          className={style.catalogView}
+                          catalogStyles={props.catalogStyles}
           />
         )
       }
