@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/shop-online/static/css/main.46faf65e.css",
+    "main.js": "/shop-online/static/js/main.e10975c9.js",
+    "static/media/Active Precision Bass® PH V.png": "/shop-online/static/media/Active Precision Bass® PH V.0082070f85b5d2967d11.png",
+    "static/media/Hummingbird Standard.png": "/shop-online/static/media/Hummingbird Standard.03dc82dcf5fedf1dbaf8.png",
+    "static/media/headerBg.png": "/shop-online/static/media/headerBg.aebd56f54a06641df96a.png",
+    "static/media/ibanez.svg": "/shop-online/static/media/ibanez.63a7f762e16c7462556e339e515a222f.svg",
+    "static/media/Professional II Stratocaster®.png": "/shop-online/static/media/Professional II Stratocaster®.415266574f0b47dab95e.png",
+    "static/media/The Essential Les Paul.png": "/shop-online/static/media/The Essential Les Paul.37baffbbd3e568bcf70e.png",
+    "static/media/J-45 Standard.png": "/shop-online/static/media/J-45 Standard.2e44c8a90e52649699fa.png",
+    "static/media/Redondo Special.png": "/shop-online/static/media/Redondo Special.a1af643388b92bd2d4ec.png",
+    "static/media/bgcatalog.jfif": "/shop-online/static/media/bgcatalog.bac9e83b813f076f531a.jfif",
+    "static/media/martinIco.svg": "/shop-online/static/media/martinIco.f6507d1d4432809e58d535a6011c9a79.svg",
+    "static/media/Acoustic.png": "/shop-online/static/media/Acoustic.940a07a8e8790aeb167e.png",
+    "static/media/Basses.png": "/shop-online/static/media/Basses.00356c312a66a4ac92f3.png",
+    "static/media/gibson.svg": "/shop-online/static/media/gibson.fe6eb6390e13608e65dc837f7b10f7fb.svg",
+    "static/media/Collections.png": "/shop-online/static/media/Collections.b2f6bddcada551b358c6.png",
+    "static/media/Electric.png": "/shop-online/static/media/Electric.ce76501d701d1c50c2d2.png",
+    "static/media/Poppins.woff": "/shop-online/static/media/Poppins.26c20b0f1f2b2d0d7f4e.woff",
+    "static/media/Cal Sans.woff": "/shop-online/static/media/Cal Sans.b8c456ff9fd96840cdca.woff",
+    "static/media/taylor.svg": "/shop-online/static/media/taylor.fd5eca34507bd879c9956b237bc2b674.svg",
+    "static/media/fender.svg": "/shop-online/static/media/fender.5fbe8c3699575dcce66c7638da6dcd19.svg",
+    "static/media/seagull.svg": "/shop-online/static/media/seagull.f80d37624bddfa92731cda449edc5ecc.svg",
+    "static/media/tacamine.svg": "/shop-online/static/media/tacamine.fa1052fa3d3422481cb572484560235c.svg",
+    "static/media/gretch.svg": "/shop-online/static/media/gretch.8f41d09689a4fd9a4a671c0b2b264a9a.svg",
+    "static/media/Instagram.svg": "/shop-online/static/media/Instagram.a8f470dd66d373b1e71b7433a15ae57b.svg",
+    "static/media/logoShop.svg": "/shop-online/static/media/logoShop.05a24c66e2bd7effd95274e5880e963f.svg",
+    "static/media/Twitter.svg": "/shop-online/static/media/Twitter.3cc0c65d5b4aef05fb632c6fea47a7c1.svg",
+    "static/media/AppleLogo.svg": "/shop-online/static/media/AppleLogo.61c3227df8990bb2098716272d850979.svg",
+    "static/media/playMarketLogo.svg": "/shop-online/static/media/playMarketLogo.11f2434982ec7718017a623391d0696e.svg",
+    "index.html": "/shop-online/index.html",
+    "static/media/location.svg": "/shop-online/static/media/location.dc15edafa8da33920813186e790f256d.svg",
+    "static/media/sms.svg": "/shop-online/static/media/sms.a5fff729e7529a71c7eda8aec7f0a0ae.svg",
+    "static/media/Facebook.svg": "/shop-online/static/media/Facebook.ac772f0ddc23a3e89d82d9010a16cdd6.svg",
+    "main.46faf65e.css.map": "/shop-online/static/css/main.46faf65e.css.map",
+    "main.e10975c9.js.map": "/shop-online/static/js/main.e10975c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46faf65e.css",
+    "static/js/main.e10975c9.js"
+  ]
+}
