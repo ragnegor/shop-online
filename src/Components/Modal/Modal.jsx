@@ -4,7 +4,7 @@ import style from "./Modal.module.css";
 
 function Modal ({active, setActive}) {
   return (
-    <div className={active ? "modal active" : "modal"} onClick={() => setActive(false)}>
+    <div className={active ?  style.modal + " " + style.active : style.modal} onClick={() => setActive(false)}>
       <div className={style.modalContent} onClick={(e) => e.stopPropagation()}>
 
       </div>
