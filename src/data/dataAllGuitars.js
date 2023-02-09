@@ -11,11 +11,9 @@ const dataAllGuitars = {
     {"id": 1, "title": "The Essential Les Paul", "price": 1299, "image": lesPaul, "alt": "lesPaul"},
     {"id": 2, "title": "J-45 Standard", "price": 1699, "image": J45, "alt": "J-45 Standard"},
     {"id": 3, "title": "Hummingbird Standard", "price": 2099, "image": Hummingbird, "alt": "Hummingbird Standard"},
-
     {"id": 4, "title": "Active Precision Bass® PH V", "price": 4199, "image": ActivePrecisionBassPHV},
     {"id": 5, "title": "Redondo Special", "price": 2800, "image": RedondoSpecial},
     {"id": 6, "title": "Professional II Stratocaster®", "price": 3199, "image": ProfessionalIIStratocaster},
-
   ]
 }
 

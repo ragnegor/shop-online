@@ -3,6 +3,7 @@ import style from "./ProductsContainer.module.css";
 import ProductPreview from "../../../Products/ProductPreview/ProductPreview";
 
 function ProductsContainer (props) {
+  console.log(props)
   return(
     <div className={style.ProductsContainer}>
       <div className={style.header}>
@@ -17,7 +18,9 @@ function ProductsContainer (props) {
                               alt={product.alt}
                               title={product.title}
                               price={product.price}
-                              btnText={props.btnText}/>
+                              btnText={props.btnText}
+                              modalClick={props.modalClick}
+              />
             </div>
           )
         }

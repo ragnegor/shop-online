@@ -7,10 +7,10 @@ import Modal from "../../Modal/Modal";
 
 
 function CheckStore(props) {
-  const [modalActive, setModalActive] = useState(true)
+  const [modalActive, setModalActive] = useState(false)
+  const openModal = () => setModalActive(true)
   return (
     <section className={style.checkStore}>
-      <button onClick={() => setModalActive(true)}>modal</button>
       <Modal active={modalActive} setActive={setModalActive}/>
       <h2>{props.data.h2} <span>{props.data.span}</span></h2>
 
@@ -19,15 +19,17 @@ function CheckStore(props) {
                          viewAlllink={props.data.onBoard.link.link}
                          btnText={props.data.onBoard.button}
                          products={dataProductsOnBoard}
-
+                         modalClick={openModal}
       />
 
-      <ProductsContainer title={props.data.bestSale.h3}
-                         viewAll={props.data.onBoard.link.item}
-                         viewAlllink={props.data.onBoard.link.link}
-                         btnText={props.data.onBoard.button}
-                         products={dataProductsBestSale}
-      />
+
+      {/*<ProductsContainer title={props.data.bestSale.h3}*/}
+      {/*                   viewAll={props.data.onBoard.link.item}*/}
+      {/*                   viewAlllink={props.data.onBoard.link.link}*/}
+      {/*                   btnText={props.data.onBoard.button}*/}
+      {/*                   products={dataProductsBestSale}*/}
+      {/*                   modalClick={openModal}*/}
+      {/*/>*/}
     </section>
   )
 }
