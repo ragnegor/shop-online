@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shop-online/static/css/main.46faf65e.css",
-    "main.js": "/shop-online/static/js/main.e10975c9.js",
+    "main.css": "/shop-online/static/css/main.2c0d0983.css",
+    "main.js": "/shop-online/static/js/main.b7989add.js",
     "static/media/Active Precision Bass® PH V.png": "/shop-online/static/media/Active Precision Bass® PH V.0082070f85b5d2967d11.png",
     "static/media/Hummingbird Standard.png": "/shop-online/static/media/Hummingbird Standard.03dc82dcf5fedf1dbaf8.png",
     "static/media/headerBg.png": "/shop-online/static/media/headerBg.aebd56f54a06641df96a.png",
@@ -13,6 +13,7 @@
     "static/media/bgcatalog.jfif": "/shop-online/static/media/bgcatalog.bac9e83b813f076f531a.jfif",
     "static/media/martinIco.svg": "/shop-online/static/media/martinIco.f6507d1d4432809e58d535a6011c9a79.svg",
     "static/media/Acoustic.png": "/shop-online/static/media/Acoustic.940a07a8e8790aeb167e.png",
+    "static/media/bgModal.jpg": "/shop-online/static/media/bgModal.600de304383891208a60.jpg",
     "static/media/Basses.png": "/shop-online/static/media/Basses.00356c312a66a4ac92f3.png",
     "static/media/gibson.svg": "/shop-online/static/media/gibson.fe6eb6390e13608e65dc837f7b10f7fb.svg",
     "static/media/Collections.png": "/shop-online/static/media/Collections.b2f6bddcada551b358c6.png",
@@ -33,11 +34,11 @@
     "static/media/location.svg": "/shop-online/static/media/location.dc15edafa8da33920813186e790f256d.svg",
     "static/media/sms.svg": "/shop-online/static/media/sms.a5fff729e7529a71c7eda8aec7f0a0ae.svg",
     "static/media/Facebook.svg": "/shop-online/static/media/Facebook.ac772f0ddc23a3e89d82d9010a16cdd6.svg",
-    "main.46faf65e.css.map": "/shop-online/static/css/main.46faf65e.css.map",
-    "main.e10975c9.js.map": "/shop-online/static/js/main.e10975c9.js.map"
+    "main.2c0d0983.css.map": "/shop-online/static/css/main.2c0d0983.css.map",
+    "main.b7989add.js.map": "/shop-online/static/js/main.b7989add.js.map"
   },
   "entrypoints": [
-    "static/css/main.46faf65e.css",
-    "static/js/main.e10975c9.js"
+    "static/css/main.2c0d0983.css",
+    "static/js/main.b7989add.js"
   ]
 }
