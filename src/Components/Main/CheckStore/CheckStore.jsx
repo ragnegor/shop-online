@@ -23,13 +23,13 @@ function CheckStore(props) {
       />
 
 
-      {/*<ProductsContainer title={props.data.bestSale.h3}*/}
-      {/*                   viewAll={props.data.onBoard.link.item}*/}
-      {/*                   viewAlllink={props.data.onBoard.link.link}*/}
-      {/*                   btnText={props.data.onBoard.button}*/}
-      {/*                   products={dataProductsBestSale}*/}
-      {/*                   modalClick={openModal}*/}
-      {/*/>*/}
+      <ProductsContainer title={props.data.bestSale.h3}
+                         viewAll={props.data.onBoard.link.item}
+                         viewAlllink={props.data.onBoard.link.link}
+                         btnText={props.data.onBoard.button}
+                         products={dataProductsBestSale}
+                         modalClick={openModal}
+      />
     </section>
   )
 }
