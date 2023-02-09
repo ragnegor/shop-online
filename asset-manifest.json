@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shop-online/static/css/main.2c0d0983.css",
-    "main.js": "/shop-online/static/js/main.b7989add.js",
+    "main.js": "/shop-online/static/js/main.e0ae881d.js",
     "static/media/Active Precision Bass® PH V.png": "/shop-online/static/media/Active Precision Bass® PH V.0082070f85b5d2967d11.png",
     "static/media/Hummingbird Standard.png": "/shop-online/static/media/Hummingbird Standard.03dc82dcf5fedf1dbaf8.png",
     "static/media/headerBg.png": "/shop-online/static/media/headerBg.aebd56f54a06641df96a.png",
@@ -35,10 +35,10 @@
     "static/media/sms.svg": "/shop-online/static/media/sms.a5fff729e7529a71c7eda8aec7f0a0ae.svg",
     "static/media/Facebook.svg": "/shop-online/static/media/Facebook.ac772f0ddc23a3e89d82d9010a16cdd6.svg",
     "main.2c0d0983.css.map": "/shop-online/static/css/main.2c0d0983.css.map",
-    "main.b7989add.js.map": "/shop-online/static/js/main.b7989add.js.map"
+    "main.e0ae881d.js.map": "/shop-online/static/js/main.e0ae881d.js.map"
   },
   "entrypoints": [
     "static/css/main.2c0d0983.css",
-    "static/js/main.b7989add.js"
+    "static/js/main.e0ae881d.js"
   ]
 }
