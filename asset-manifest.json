@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shop-online/static/css/main.2c0d0983.css",
-    "main.js": "/shop-online/static/js/main.e0ae881d.js",
+    "main.css": "/shop-online/static/css/main.ccca56d9.css",
+    "main.js": "/shop-online/static/js/main.74b2ea1f.js",
     "static/media/Active Precision Bass® PH V.png": "/shop-online/static/media/Active Precision Bass® PH V.0082070f85b5d2967d11.png",
-    "static/media/Hummingbird Standard.png": "/shop-online/static/media/Hummingbird Standard.03dc82dcf5fedf1dbaf8.png",
     "static/media/headerBg.png": "/shop-online/static/media/headerBg.aebd56f54a06641df96a.png",
+    "static/media/Redondo Special.png": "/shop-online/static/media/Redondo Special.a27284a1282e2a40ba42.png",
+    "static/media/Hummingbird Standard.png": "/shop-online/static/media/Hummingbird Standard.621cda410cdb93b6c68f.png",
     "static/media/ibanez.svg": "/shop-online/static/media/ibanez.63a7f762e16c7462556e339e515a222f.svg",
     "static/media/Professional II Stratocaster®.png": "/shop-online/static/media/Professional II Stratocaster®.415266574f0b47dab95e.png",
     "static/media/The Essential Les Paul.png": "/shop-online/static/media/The Essential Les Paul.37baffbbd3e568bcf70e.png",
     "static/media/J-45 Standard.png": "/shop-online/static/media/J-45 Standard.2e44c8a90e52649699fa.png",
-    "static/media/Redondo Special.png": "/shop-online/static/media/Redondo Special.a1af643388b92bd2d4ec.png",
     "static/media/bgcatalog.jfif": "/shop-online/static/media/bgcatalog.bac9e83b813f076f531a.jfif",
     "static/media/martinIco.svg": "/shop-online/static/media/martinIco.f6507d1d4432809e58d535a6011c9a79.svg",
     "static/media/Acoustic.png": "/shop-online/static/media/Acoustic.940a07a8e8790aeb167e.png",
@@ -34,11 +34,11 @@
     "static/media/location.svg": "/shop-online/static/media/location.dc15edafa8da33920813186e790f256d.svg",
     "static/media/sms.svg": "/shop-online/static/media/sms.a5fff729e7529a71c7eda8aec7f0a0ae.svg",
     "static/media/Facebook.svg": "/shop-online/static/media/Facebook.ac772f0ddc23a3e89d82d9010a16cdd6.svg",
-    "main.2c0d0983.css.map": "/shop-online/static/css/main.2c0d0983.css.map",
-    "main.e0ae881d.js.map": "/shop-online/static/js/main.e0ae881d.js.map"
+    "main.ccca56d9.css.map": "/shop-online/static/css/main.ccca56d9.css.map",
+    "main.74b2ea1f.js.map": "/shop-online/static/js/main.74b2ea1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c0d0983.css",
-    "static/js/main.e0ae881d.js"
+    "static/css/main.ccca56d9.css",
+    "static/js/main.74b2ea1f.js"
   ]
 }
