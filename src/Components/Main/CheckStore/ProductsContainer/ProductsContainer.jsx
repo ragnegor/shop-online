@@ -3,7 +3,6 @@ import style from "./ProductsContainer.module.css";
 import ProductPreview from "../../../Products/ProductPreview/ProductPreview";
 
 function ProductsContainer (props) {
-  console.log(props)
   return(
     <div className={style.ProductsContainer}>
       <div className={style.header}>
@@ -18,8 +17,14 @@ function ProductsContainer (props) {
                               alt={product.alt}
                               title={product.title}
                               price={product.price}
+                              brand={product.brand}
+                              model={product.model}
+                              type={product.type}
+                              strings={product.strings}
+                              aboutGuitar={product.aboutGuitar}
+                              year={product.year}
                               btnText={props.btnText}
-                              modalClick={props.modalClick}
+                              btnTextForModal={props.btnTextForModal}
               />
             </div>
           )

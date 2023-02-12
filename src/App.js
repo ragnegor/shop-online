@@ -16,10 +16,12 @@ function App() {
     <div>
       <Header data={data.header}/>
       <Routes>
-        <Route path="/" element={ <Navigate to="/shop-online" /> } />
-        <Route path="/shop-online" element={<Main data={data.main}/>}/>
+        <Route path="/" element={ <Navigate to="/shop-online"/> } />
+        <Route path="/shop-online" element={<Main data={data.main} dataInfo={data.header.infoOnline}/>}/>
         <Route path="/shop-online/storecatalog"  element={<StoreCatalog data={dataCatalog.filters}
-                                                                        dataGuitars={dataAllGuitars}btnText={data.main.chekStore.onBoard.button}
+                                                                        dataGuitars={dataAllGuitars}
+                                                                        btnText={data.main.chekStore.onBoard.button}
+                                                                        btnTextForModal={data.main.chekStore.modal.button}
         />}/>
       </Routes>
       <Footer data={data.footer}/>

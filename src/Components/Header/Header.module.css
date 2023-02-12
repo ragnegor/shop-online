@@ -1,5 +1,13 @@
 .header {
   padding: 60px 0 120px 100px;
+  height: 590px;
   background: url("../../assets/img/headerBg.png") no-repeat;
   background-position: top right;
+}
+
+.head {
+  padding: 60px 0 120px 100px;
+  height: 590px;
+  background: none;
+
 }

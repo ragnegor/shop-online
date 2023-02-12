@@ -76,6 +76,9 @@ const data = {
           link: "#"
         },
         button: "More about guitar"
+      },
+      modal: {
+        button: "Buy Now!",
       }
     },
 

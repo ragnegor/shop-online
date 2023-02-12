@@ -61,12 +61,13 @@
 
 .modalContent img {
   margin-top: -60px;
-  width: 100%;
+  width: 90%;
   transform: rotate(345deg);
 }
 
 .modalContent .infoAboutGuitar p {
   font-family: 'Poppins';
+  white-space: pre-wrap;
   font-size: 16px;
   margin-top: 65px;
   z-index: 1;
@@ -91,8 +92,16 @@
   align-items: center;
   justify-content: center;
   font-family: 'Poppins';
-  font-size: 20px;
+  font-size: 30px;
   z-index: 1;
+}
+
+.modalContent .sale p {
+  margin: 0;
+}
+
+.modalContent .sale p {
+  margin: 0;
 }
 
 

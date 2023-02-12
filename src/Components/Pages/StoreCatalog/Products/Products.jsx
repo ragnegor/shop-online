@@ -4,7 +4,6 @@ import ProductPreview from "../../../Products/ProductPreview/ProductPreview";
 
 
 function Products(props) {
-  console.log(props)
   return (
     <div className={style.productsContainer}>
       {
@@ -13,8 +12,15 @@ function Products(props) {
                           picture={guitars.image}
                           alt={guitars.alt}
                           title={guitars.title}
+                          brand={guitars.brand}
+                          model={guitars.model}
+                          type={guitars.type}
+                          strings={guitars.strings}
+                          year={guitars.year}
+                          aboutGuitar={guitars.aboutGuitar}
                           price={guitars.price}
                           btnText={props.btnText}
+                          btnTextForModal={props.btnTextForModal}
                           className={style.catalogView}
                           catalogStyles={props.catalogStyles}
           />
