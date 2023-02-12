@@ -9,7 +9,6 @@ function StoreCatalog (props) {
   const headerStyleCatalog = headerStyles.head
   useEffect(() => {
     document.getElementById("header").className=headerStyles.head
-    console.log(1111)
   })
   const styles = {width: "30%"}
   return (

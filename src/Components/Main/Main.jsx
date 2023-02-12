@@ -10,7 +10,6 @@ import headerStyles from  '../Header/Header.module.css';
 function Main (props) {
   useEffect(() => {
      document.getElementById("header").className=headerStyles.header
-    console.log(1111)
   })
   return (
     <main>
