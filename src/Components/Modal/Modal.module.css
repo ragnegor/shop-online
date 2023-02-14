@@ -34,7 +34,7 @@
 
 .modalContent::after {
   content: "";
-  background: url("../../assets/img/bgModal.jpg") center center/cover no-repeat;
+  background: url("../../assets/img/aboutGuitarBg.jpg") center center/cover no-repeat;
   -webkit-mask-image:-webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 50%,rgba(0,0,0,0) 100%);
   opacity: 0.2;
   top: 0;

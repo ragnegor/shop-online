@@ -1,4 +1,5 @@
 import logoShop from "../assets/img/logoShop.svg";
+import basket from "../assets/img/basket.svg"
 import playmarket from "../assets/img/icons/playMarketLogo.svg";
 import appstore from "../assets/img/icons/AppleLogo.svg"
 
@@ -34,8 +35,13 @@ const data = {
       nav: [
         {"id": 1, "link": "/shop-online/storecatalog", "item": "Store"},
         {"id": 2, "link": "#", "item": "Collections"},
-        {"id": 3, "link": "#", "item": "Support"}
-      ]
+        {"id": 3, "link": "#", "item": "Support"},
+      ],
+      basket: {
+        link: "/shop-online/basket",
+        icon: basket,
+        alt: "basket",
+      }
     },
     infoOnline: {
       h1: "Browse top quality\n",

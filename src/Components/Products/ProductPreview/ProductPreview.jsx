@@ -14,20 +14,20 @@ function ProductPreview(props) {
         <h4>{props.title}</h4>
         <p>${props.price}</p>
         <Button btnText={props.btnText} оnClick={showModal}/>
-        <Modal title={props.title}
-               image={props.picture}
-               price={props.price}
-               brand={props.brand}
-               model={props.model}
-               type={props.type}
-               strings={props.strings}
-               year={props.year}
-               info={props.aboutGuitar}
-               active={showModalState}
-               onClose={hideModal}
-               btnTextForModal={props.btnTextForModal}
+        {/*<Modal title={props.title}*/}
+        {/*       image={props.picture}*/}
+        {/*       price={props.price}*/}
+        {/*       brand={props.brand}*/}
+        {/*       model={props.model}*/}
+        {/*       type={props.type}*/}
+        {/*       strings={props.strings}*/}
+        {/*       year={props.year}*/}
+        {/*       info={props.aboutGuitar}*/}
+        {/*       active={showModalState}*/}
+        {/*       onClose={hideModal}*/}
+        {/*       btnTextForModal={props.btnTextForModal}*/}
 
-        />
+        {/*/>*/}
       </div>
   )
 }

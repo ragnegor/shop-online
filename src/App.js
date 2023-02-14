@@ -9,6 +9,8 @@ import StoreCatalog from "./Components/Pages/StoreCatalog/StoreCatalog";
 import dataCatalog from "./data/dataCatalog";
 import dataAllGuitars from "./data/dataAllGuitars";
 import React from "react";
+import Basket from "./Components/Pages/Basket/Basket";
+import AboutGuitar from "./Components/Pages/AboutGuitar/AboutGuitar";
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
                                                                         btnText={data.main.chekStore.onBoard.button}
                                                                         btnTextForModal={data.main.chekStore.modal.button}
         />}/>
+        <Route path="/shop-online/basket" element={<Basket/>}/>
+        <Route path="/shop-online/aboutGuitar" element={<AboutGuitar/>}/>
       </Routes>
       <Footer data={data.footer}/>
     </div>

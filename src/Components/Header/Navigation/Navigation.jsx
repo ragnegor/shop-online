@@ -14,6 +14,9 @@ function Navigation(props) {
           </li>
           )
         }
+        <li><Link to={props.data.basket.link} id="basket" className={style.basket}><img src={props.data.basket.icon}
+                                                                                       alt={props.data.basket.alt}/>
+        </Link></li>
       </ol>
     </nav>
   )

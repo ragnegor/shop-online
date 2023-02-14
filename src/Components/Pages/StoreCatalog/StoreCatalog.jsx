@@ -6,10 +6,12 @@ import headerStyles from "../../Header/Header.module.css";
 
 
 function StoreCatalog (props) {
-  const headerStyleCatalog = headerStyles.head
   useEffect(() => {
     document.getElementById("header").className=headerStyles.head
   })
+  const checkBoxes = document.querySelectorAll("input");
+  console.log(checkBoxes)
+
   const styles = {width: "30%"}
   return (
     <div className={style.store}>

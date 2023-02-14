@@ -32,3 +32,26 @@
   margin: 0 56px;
 }
 
+.navigation .basket {
+  width: 50px;
+  height: 50px;
+  margin-left: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background: #FF6428;
+  box-shadow: 0px 2px 5px 0px rgb(102 102 102);
+  transition: all 500ms ease;
+}
+
+.navigation .basket:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.navigation .basket img {
+  width: 60%;
+}
+

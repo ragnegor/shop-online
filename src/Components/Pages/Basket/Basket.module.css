@@ -1,0 +1,25 @@
+.basket {
+  height: 800px;
+  margin-top: -445px;
+  position: relative;
+}
+
+.basket h2 {
+  text-align: center;
+  font-family: 'Cal Sans';
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.basket::after {
+  content: "";
+  background: url("../../../assets/img/basketBg.jpg") center center/cover no-repeat;
+  -webkit-mask-image:-webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 50%,rgba(0,0,0,0) 100%);
+  opacity: 0.1;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}

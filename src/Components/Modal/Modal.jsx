@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Modal.module.css";
 import picGuitar from "../../assets/img/products/productOnBoard/The Essential Les Paul.png";
 import Button from "../Button/Button";
-import ii from "../../assets/img/bgModal.jpg";
+import ii from "../../assets/img/aboutGuitarBg.jpg";
 
 function Modal (props) {
   return (
