@@ -1,9 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import style from "./Carousel.module.css";
-import dd from "../../assets/img/headerBg.png"
-import rr from "../../assets/img/aboutGuitarBg.jpg";
-import ee from "../../assets/img/basketBg.jpg";
-
+import slide1 from "../../assets/img/11.jpg";
+import slide2 from "../../assets/img/22.jpg";
+import slide3 from "../../assets/img/33.jpg";
 
 
 
@@ -13,21 +12,21 @@ function CarouselFadeExample(props) {
       <Carousel.Item interval={4000} className={style.carouselItem}>
         <img
           className={style.img}
-          src={ee}
+          src={slide1}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item interval={4000} className={style.carouselItem}>
         <img
           className={style.img}
-          src={rr}
+          src={slide2}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item interval={4000} className={style.carouselItem}>
         <img
           className={style.img}
-          src={dd}
+          src={slide3}
           alt="Third slide"
         />
       </Carousel.Item>

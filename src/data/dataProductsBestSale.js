@@ -6,7 +6,7 @@ import ProfessionalIIStratocaster from "../assets/img/products/productBestSalle/
 
 const dataProductsBestSale = [
   {
-    "id": 1,
+    "id": 4,
     "brand": "Fender",
     "model": "TActive Precision Bass® PH V",
     "type": "Bass guitar",
@@ -18,7 +18,7 @@ const dataProductsBestSale = [
     "image": ActivePrecisionBassPHV
   },
   {
-    "id": 2,
+    "id": 5,
     "brand": "Fender",
     "model": "Redondo Special",
     "type": "Acoustic guitar",
@@ -30,7 +30,7 @@ const dataProductsBestSale = [
     "image": RedondoSpecial
   },
   {
-    "id": 3,
+    "id": 6,
     "brand": "Fender",
     "model": "Professional II Stratocaster®",
     "type": "Electric guitar",

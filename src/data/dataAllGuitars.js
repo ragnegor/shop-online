@@ -38,7 +38,7 @@ const dataAllGuitars = {
     {
       "id": 3,
       "brand": "Gibson",
-      "model": "The Essential Les Paul",
+      "model": "Hummingbird Standard",
       "type": "Electric guitar",
       "strings": "6",
       "year": "2015",
