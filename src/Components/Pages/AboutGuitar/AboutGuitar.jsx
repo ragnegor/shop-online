@@ -4,7 +4,7 @@ import headerStyles from "../../Header/Header.module.css";
 import Carousel from "../../Carousel/Carousel";
 import Button from "../../Button/Button";
 import {useSearchParams} from "react-router-dom";
-import dataAllGuitars from "../../../data/dataProductsOnBoard";
+import dataAllGuitars from "../../../data/dataAllGuitars";
 
 function AboutGuitar(props) {
   console.log(props)
