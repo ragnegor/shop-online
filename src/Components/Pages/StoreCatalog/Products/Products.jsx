@@ -11,6 +11,7 @@ function Products(props) {
           <ProductPreview key={guitars.header}
                           picture={guitars.image}
                           alt={guitars.alt}
+                          id={guitars.id}
                           title={guitars.title}
                           brand={guitars.brand}
                           model={guitars.model}

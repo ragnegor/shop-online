@@ -16,6 +16,7 @@ function ProductsContainer (props) {
               <ProductPreview picture={product.image}
                               alt={product.alt}
                               title={product.title}
+                              id={product.id}
                               price={product.price}
                               brand={product.brand}
                               model={product.model}
