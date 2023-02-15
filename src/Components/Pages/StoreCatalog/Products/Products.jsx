@@ -16,6 +16,7 @@ function Products(props) {
                           model={guitars.model}
                           type={guitars.type}
                           strings={guitars.strings}
+                          id={guitars.id}
                           year={guitars.year}
                           aboutGuitar={guitars.aboutGuitar}
                           price={guitars.price}

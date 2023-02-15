@@ -17,6 +17,7 @@ function ProductsContainer (props) {
                               alt={product.alt}
                               title={product.title}
                               price={product.price}
+                              id={product.id}
                               brand={product.brand}
                               model={product.model}
                               type={product.type}

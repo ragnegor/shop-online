@@ -1,36 +1,48 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import style from "./AboutGuitar.module.css";
 import headerStyles from "../../Header/Header.module.css";
 import Carousel from "../../Carousel/Carousel";
 import Button from "../../Button/Button";
-
-
-
+import {useSearchParams} from "react-router-dom";
+import dataAllGuitars from "../../../data/dataAllGuitars";
 
 function AboutGuitar(props) {
   console.log(props)
+  const [search,] = useSearchParams();
+  const [currentId, setCurrentId] = useState(null);
+  const [currentItem, setCurrentItem] = useState([]);
+
   useEffect(() => {
-    document.getElementById("header").className=headerStyles.head
-  })
+    document.getElementById("header").className = headerStyles.head;
+  }, []);
+
+  useEffect(() => {
+    setCurrentId(search.get("id"));
+  }, [search]);
+
+  useEffect(() => {
+    setCurrentItem(dataAllGuitars.allGuitars.find(item => item.id == currentId));
+  }, [currentId]);
+
   return (
     <div className={style.aboutContainer}>
-      <h2>{props.model}</h2>
+      <h2>{currentItem?.model}</h2>
       <div className={style.head}>
         <div className={style.carousel}>
           <Carousel />
         </div>
         <div className={style.info}>
           <div>
-            <h3>${props.price}</h3>
+            <h3>${currentItem?.price}</h3>
             <Button textAddCart={props.data.btnTextCard}/>
           </div>
           <div className={style.characteristics}>
             <h3>Characteristics</h3>
-            <p>Brand: {props.brand}</p>
-            <p>Model: {props.model}</p>
-            <p>Type: {props.type}</p>
-            <p>Number of strings: {props.strings}</p>
-            <p>Year of issue: {props.year}</p>
+            <p>Brand: {currentItem?.brand}</p>
+            <p>Model: {currentItem?.model}</p>
+            <p>Type: {currentItem?.type}</p>
+            <p>Number of strings: {currentItem?.strings}</p>
+            <p>Year of issue: {currentItem?.year}</p>
           </div>
           <div className={style.form}>
             <div className={style.login}>
@@ -39,7 +51,6 @@ function AboutGuitar(props) {
                 <a href="#"><img src={props.data.formLogin.facebook} alt="fb"/></a>
                 <a href="#"><img src={props.data.formLogin.google} alt="google"/></a>
               </div>
-
             </div>
             <h3>{props.data.formNote}</h3>
             <form action="" method="post">
