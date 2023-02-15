@@ -21,7 +21,7 @@ function AboutGuitar(props) {
   }, [search]);
 
   useEffect(() => {
-    setCurrentItem(dataAllGuitars.find(item => item.id == currentId));
+    setCurrentItem(dataAllGuitars.allGuitars.find(item => item.id == currentId));
   }, [currentId]);
 
   return (
