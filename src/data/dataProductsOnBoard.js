@@ -39,7 +39,7 @@ const dataProductsOnBoard = [
     "type": "Electric guitar",
     "strings": "6",
     "year": "2015",
-    "aboutGuitar" : "Much of the Hummingbird’s appeal lies in its versatility. No matter how you\nattack this flat-top, it pumps out rich, deep tones, and is equally at home\nstrumming first-position chords as it is taking the spotlight for picking lead lines.",
+    "aboutGuitar": "Much of the Hummingbird’s appeal lies in its versatility. No matter how you\nattack this flat-top, it pumps out rich, deep tones, and is equally at home\nstrumming first-position chords as it is taking the spotlight for picking lead lines.",
     "title": "Hummingbird Standard",
     "price": 2099,
     "image": Hummingbird,

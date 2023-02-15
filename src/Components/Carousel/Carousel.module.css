@@ -1,0 +1,15 @@
+.carousel {
+  width: 900px;
+}
+
+.carousel .img {
+  /*width: 100%;*/
+  margin: 0 auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carouselItem {
+  text-align: center;
+  height: 700px;
+}

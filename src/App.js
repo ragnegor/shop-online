@@ -26,7 +26,8 @@ function App() {
                                                                         btnTextForModal={data.main.chekStore.modal.button}
         />}/>
         <Route path="/shop-online/basket" element={<Basket/>}/>
-        <Route path="/shop-online/aboutGuitar" element={<AboutGuitar/>}/>
+        <Route path="/shop-online/aboutGuitar" element={<AboutGuitar data={data.main.chekStore.aboutGuitarPage}
+        />}/>
       </Routes>
       <Footer data={data.footer}/>
     </div>

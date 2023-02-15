@@ -10,23 +10,23 @@ import ee from "../../assets/img/basketBg.jpg";
 function CarouselFadeExample(props) {
   return (
     <Carousel fade className={style.carousel}>
-      <Carousel.Item>
+      <Carousel.Item interval={4000} className={style.carouselItem}>
         <img
-          className="d-block w-100"
+          className={style.img}
           src={ee}
           alt="First slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={4000} className={style.carouselItem}>
         <img
-          className="d-block w-100"
+          className={style.img}
           src={rr}
           alt="Second slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={4000} className={style.carouselItem}>
         <img
-          className="d-block w-100"
+          className={style.img}
           src={dd}
           alt="Third slide"
         />

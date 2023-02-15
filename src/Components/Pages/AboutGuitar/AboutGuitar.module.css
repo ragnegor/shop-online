@@ -3,6 +3,7 @@
   width: 100%;
   height: 1500px;
   position: relative;
+  padding: 40px;
 }
 
 .aboutContainer::after {
@@ -18,6 +19,112 @@
   z-index: -1;
 }
 
-.aboutContainer .carousel {
-  /*width: 60%;;*/
+.aboutContainer .head {
+  display: flex;
+}
+
+.aboutContainer .head .info div:nth-child(1) {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.aboutContainer .head .info div:nth-child(1) h3 {
+  margin: 0 50px 0 0;
+}
+
+.aboutContainer .head .info {
+  margin-left: 50px;
+}
+
+.aboutContainer .head .info div:nth-child(1) h3 {
+  font-family: Poppins;
+  font-size: 30px;
+  text-align: center;
+}
+
+.aboutContainer .characteristics h3 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.aboutContainer .characteristics p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.aboutContainer .form h3 {
+  margin-top: 40px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.aboutContainer .form {
+  position: relative;
+}
+
+.aboutContainer .form .login {
+  text-align: center;
+  position: absolute;
+  width: 100px;
+  top: 40px;
+  left: 215px;
+}
+
+.aboutContainer .form .login p {
+  margin: 0 10px 0 0;
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.aboutContainer .form form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.aboutContainer .form form textarea {
+  width: 100%;
+  height: 200px;
+}
+
+.aboutContainer .fullDescription {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.aboutContainer .fullDescription .description {
+  height: 500px;
+  width: 50%;
+}
+
+.aboutContainer .fullDescription .video {
+  width: 45%;
+}
+
+.aboutContainer .rating {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+}
+
+.aboutContainer .rating .stars img {
+  margin: 0 10px 20px 10px;
+}
+
+.aboutContainer .rating .stars img:hover {
+  filter: invert(51%) sepia(90%) saturate(3067%) hue-rotate(344deg) brightness(104%) contrast(101%);
 }

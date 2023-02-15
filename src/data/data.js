@@ -22,6 +22,8 @@ import location from "../assets/img/icons/location.svg";
 import facebook from "../assets/img/icons/Facebook.svg";
 import instagram from "../assets/img/icons/Instagram.svg";
 import twitter from "../assets/img/icons/Twitter.svg";
+import google from "../assets/img/icons/google.svg";
+import star from "../assets/img/star-rating.svg";
 
 
 const data = {
@@ -85,6 +87,20 @@ const data = {
       },
       modal: {
         button: "Buy Now!",
+      },
+      aboutGuitarPage: {
+        btnTextCard: "Add to Basket",
+        formNote: "Write us a note",
+        btnTextReiview: "Post a review",
+        formLogin: {
+          facebook: facebook,
+          google: google,
+        },
+        rating: {
+          star: star,
+          btnText: "Rate the product",
+        }
+
       }
     },
 

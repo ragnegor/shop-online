@@ -1,9 +1,16 @@
 import React from "react";
 import style from "./Button.module.css";
 
-function Button (props) {
+function Button(props) {
   return (
-    <button className={style.button} onClick={props.оnClick}>{props.btnText} {props.textBuyNow} </button>
+    <button className={style.button}
+            onClick={props.оnClick}>
+            {props.btnText}
+            {props.textBuyNow}
+            {props.textAddCart}
+            {props.textReview}
+
+    </button>
   )
 }
 
