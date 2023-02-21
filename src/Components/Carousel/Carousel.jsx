@@ -5,7 +5,6 @@ import style from "./Carousel.module.css";
 
 
 function CarouselFadeExample(props) {
-  console.log(props)
   return (
     <Carousel fade className={style.carousel}>
       <Carousel.Item interval={4000} className={style.carouselItem}>

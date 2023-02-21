@@ -5,10 +5,9 @@ import Carousel from "../../Carousel/Carousel";
 import Button from "../../Button/Button";
 import {useSearchParams} from "react-router-dom";
 import dataAllGuitars from "../../../data/dataAllGuitars";
-import StarRating from "../../RatingRefactoring/StarRating";
+import StarRating from "../../Rating/StarRating";
 
 function AboutGuitar(props) {
-  console.log(props)
   const [search,] = useSearchParams();
   const [currentId, setCurrentId] = useState(null);
   const [currentItem, setCurrentItem] = useState([]);
