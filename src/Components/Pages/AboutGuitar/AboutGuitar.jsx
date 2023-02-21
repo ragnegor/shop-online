@@ -5,6 +5,7 @@ import Carousel from "../../Carousel/Carousel";
 import Button from "../../Button/Button";
 import {useSearchParams} from "react-router-dom";
 import dataAllGuitars from "../../../data/dataAllGuitars";
+import StarRating from "../../RatingRefactoring/StarRating";
 
 function AboutGuitar(props) {
   console.log(props)
@@ -77,11 +78,7 @@ function AboutGuitar(props) {
       </div>
       <div className={style.rating}>
         <div className={style.stars}>
-          <img id="1" src={props.data.rating.star} alt="star1"/>
-          <img id="2" src={props.data.rating.star} alt="star2"/>
-          <img id="3" src={props.data.rating.star} alt="star3"/>
-          <img id="4" src={props.data.rating.star} alt="star4"/>
-          <img id="5" src={props.data.rating.star} alt="star5"/>
+          <StarRating/>
         </div>
         <Button btnText={props.data.rating.btnText}/>
       </div>

@@ -128,6 +128,10 @@
   font-size: 20px;
 }
 
+.aboutContainer .rating .stars {
+  display: flex;
+}
+
 .aboutContainer .rating .stars img {
   margin: 0 10px 20px 10px;
 }
