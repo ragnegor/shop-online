@@ -1,7 +1,7 @@
 // ProductsOnBoard
 import lesPaul from "../assets/img/products/productOnBoard/The Essential Les Paul.png";
 import J45 from "../assets/img/products/productOnBoard/J-45 Standard.png";
-import Hummingbird from "../assets/img/products/productOnBoard/Hummingbird Standard.png";
+import LesPaulCustomGibsonES335 from "../assets/img/products/productOnBoard/Les Paul Custom Gibson ES-335.png";
 
 
 const dataProductsOnBoard = [
@@ -12,7 +12,6 @@ const dataProductsOnBoard = [
     "type": "Electric guitar",
     "strings": "6",
     "year": "2015",
-    "aboutGuitar": "The Epiphone Les Paul Classic boasts a balanced combination of\nmahogany and maple in the back. The mahogany produces a rich\nand warm resonance with incredible depth, while the maple\ntop adds clarity, clarity and lively highs.",
     "title": "The Essential Les Paul",
     "price": 1299,
     "image": lesPaul,
@@ -25,7 +24,6 @@ const dataProductsOnBoard = [
     "type": "Electric guitar",
     "strings": "6",
     "year": "2018",
-    "aboutGuitar": "The new J-45 Standart captures the true spirit of Gibson and\nis Gibson's most popular guitar. The J-45 True Vintage is a handmade\nGibson Acoustic guitar in Bozeman, Montana.",
     "title": "J-45 Standard",
     "price": 1699,
     "image": J45,
@@ -35,15 +33,14 @@ const dataProductsOnBoard = [
   {
     "id": 3,
     "brand": "Gibson",
-    "model": "Hummingbird Standard",
+    "model": "Les Paul Custom Gibson ES-335",
     "type": "Electric guitar",
     "strings": "6",
     "year": "2015",
-    "aboutGuitar": "Much of the Hummingbird’s appeal lies in its versatility. No matter how you\nattack this flat-top, it pumps out rich, deep tones, and is equally at home\nstrumming first-position chords as it is taking the spotlight for picking lead lines.",
-    "title": "Hummingbird Standard",
+    "title": "Les Paul Custom Gibson ES-335",
     "price": 2099,
-    "image": Hummingbird,
-    "alt": "Hummingbird Standard"
+    "image": LesPaulCustomGibsonES335,
+    "alt": "LesPaulCustomGibsonES335"
   },
 ]
 

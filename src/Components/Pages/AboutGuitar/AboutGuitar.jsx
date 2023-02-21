@@ -29,7 +29,10 @@ function AboutGuitar(props) {
       <h2>{currentItem?.model}</h2>
       <div className={style.head}>
         <div className={style.carousel}>
-          <Carousel />
+          <Carousel slide1={currentItem?.slide1}
+                    slide2={currentItem?.slide2}
+                    slide3={currentItem?.slide3}
+          />
         </div>
         <div className={style.info}>
           <div>
@@ -64,11 +67,11 @@ function AboutGuitar(props) {
       </div>
       <div className={style.fullDescription}>
         <div className={style.description}>
-          <p>{props.aboutGuitar}</p>
+          <p>{currentItem?.aboutGuitar}</p>
         </div>
         <div className={style.video}>
           <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen height="100%" src="https://www.youtube.com/embed/B6s9NfiaSGw"
+                  allowFullScreen height="100%" src={currentItem?.video}
                   title="YouTube video player" width="100%" data-gtm-yt-inspected-9="true"></iframe>
         </div>
       </div>

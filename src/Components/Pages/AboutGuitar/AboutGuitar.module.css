@@ -121,6 +121,13 @@
   height: 200px;
 }
 
+.aboutContainer .description {
+  white-space: pre-wrap;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+}
+
 .aboutContainer .rating .stars img {
   margin: 0 10px 20px 10px;
 }
