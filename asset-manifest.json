@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/shop-online/static/css/main.b806e1d2.css",
-    "main.js": "/shop-online/static/js/main.65f9aa5b.js",
+    "main.css": "/shop-online/static/css/main.e0513766.css",
+    "main.js": "/shop-online/static/js/main.c15bb976.js",
     "static/media/Active Precision Bass® PH V.png": "/shop-online/static/media/Active Precision Bass® PH V.0082070f85b5d2967d11.png",
     "static/media/22.jpg": "/shop-online/static/media/22.dec10df391dd2a8abdbe.jpg",
     "static/media/headerBg.png": "/shop-online/static/media/headerBg.aebd56f54a06641df96a.png",
     "static/media/Redondo Special.png": "/shop-online/static/media/Redondo Special.a27284a1282e2a40ba42.png",
-    "static/media/Hummingbird Standard.png": "/shop-online/static/media/Hummingbird Standard.621cda410cdb93b6c68f.png",
+    "static/media/slide3.jpg": "/shop-online/static/media/slide3.5ed62b1ed1edb746868d.jpg",
     "static/media/ibanez.svg": "/shop-online/static/media/ibanez.63a7f762e16c7462556e339e515a222f.svg",
     "static/media/Professional II Stratocaster®.png": "/shop-online/static/media/Professional II Stratocaster®.415266574f0b47dab95e.png",
     "static/media/33.jpg": "/shop-online/static/media/33.838ff053ab9684d6e063.jpg",
     "static/media/The Essential Les Paul.png": "/shop-online/static/media/The Essential Les Paul.37baffbbd3e568bcf70e.png",
+    "static/media/slide2.jpg": "/shop-online/static/media/slide2.8d153eca94f388ac7e83.jpg",
+    "static/media/slide1.jpg": "/shop-online/static/media/slide1.d50e8d33950dbcea07d1.jpg",
     "static/media/J-45 Standard.png": "/shop-online/static/media/J-45 Standard.2e44c8a90e52649699fa.png",
     "static/media/bgcatalog.jfif": "/shop-online/static/media/bgcatalog.bac9e83b813f076f531a.jfif",
     "static/media/martinIco.svg": "/shop-online/static/media/martinIco.f6507d1d4432809e58d535a6011c9a79.svg",
     "static/media/11.jpg": "/shop-online/static/media/11.c3854406d75cad234fea.jpg",
     "static/media/Acoustic.png": "/shop-online/static/media/Acoustic.940a07a8e8790aeb167e.png",
     "static/media/aboutGuitarBg.jpg": "/shop-online/static/media/aboutGuitarBg.600de304383891208a60.jpg",
+    "static/media/Les Paul Custom Gibson ES-335.png": "/shop-online/static/media/Les Paul Custom Gibson ES-335.9e9bdc02855626a6fd4e.png",
     "static/media/Basses.png": "/shop-online/static/media/Basses.00356c312a66a4ac92f3.png",
+    "static/media/slide1.webp": "/shop-online/static/media/slide1.f088fd17d1a74a674513.webp",
     "static/media/gibson.svg": "/shop-online/static/media/gibson.fe6eb6390e13608e65dc837f7b10f7fb.svg",
     "static/media/Collections.png": "/shop-online/static/media/Collections.b2f6bddcada551b358c6.png",
     "static/media/Electric.png": "/shop-online/static/media/Electric.ce76501d701d1c50c2d2.png",
@@ -34,18 +38,17 @@
     "static/media/basket.svg": "/shop-online/static/media/basket.47adc34ea5f49d6a011fa1cd2d1bdaa2.svg",
     "static/media/Twitter.svg": "/shop-online/static/media/Twitter.3cc0c65d5b4aef05fb632c6fea47a7c1.svg",
     "static/media/AppleLogo.svg": "/shop-online/static/media/AppleLogo.61c3227df8990bb2098716272d850979.svg",
-    "static/media/star-rating.svg": "/shop-online/static/media/star-rating.0e75a2a0bf4e1b0c90bc2690d212fc1a.svg",
     "static/media/playMarketLogo.svg": "/shop-online/static/media/playMarketLogo.11f2434982ec7718017a623391d0696e.svg",
     "index.html": "/shop-online/index.html",
     "static/media/location.svg": "/shop-online/static/media/location.dc15edafa8da33920813186e790f256d.svg",
     "static/media/google.svg": "/shop-online/static/media/google.8d8f1a25abcdd8c9c280cd3ce7ba47bc.svg",
     "static/media/sms.svg": "/shop-online/static/media/sms.a5fff729e7529a71c7eda8aec7f0a0ae.svg",
     "static/media/Facebook.svg": "/shop-online/static/media/Facebook.ac772f0ddc23a3e89d82d9010a16cdd6.svg",
-    "main.b806e1d2.css.map": "/shop-online/static/css/main.b806e1d2.css.map",
-    "main.65f9aa5b.js.map": "/shop-online/static/js/main.65f9aa5b.js.map"
+    "main.e0513766.css.map": "/shop-online/static/css/main.e0513766.css.map",
+    "main.c15bb976.js.map": "/shop-online/static/js/main.c15bb976.js.map"
   },
   "entrypoints": [
-    "static/css/main.b806e1d2.css",
-    "static/js/main.65f9aa5b.js"
+    "static/css/main.e0513766.css",
+    "static/js/main.c15bb976.js"
   ]
 }
