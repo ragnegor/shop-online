@@ -22,7 +22,7 @@ function ProductPreview(props) {
       <img className={style.picGuitar} src={props.picture} alt={props.alt}/>
       <h4>{props.title}</h4>
       <p>${props.price}</p>
-      <Button btnText={props.btnText} оnClick={() => openMore(props.id)}/>
+      <Button btnText={props.btnText} onClick={() => openMore(props.id)}/>
       {/*<Modal title={props.title}*/}
       {/*       image={props.picture}*/}
       {/*       price={props.price}*/}

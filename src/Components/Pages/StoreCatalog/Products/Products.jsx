@@ -8,7 +8,7 @@ function Products(props) {
     <div className={style.productsContainer}>
       {
         props.data.allGuitars.map(guitars =>
-          <ProductPreview key={guitars.header}
+          <ProductPreview key={guitars.id}
                           picture={guitars.image}
                           alt={guitars.alt}
                           title={guitars.title}

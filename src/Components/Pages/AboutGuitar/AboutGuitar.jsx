@@ -24,6 +24,17 @@ function AboutGuitar(props) {
     setCurrentItem(dataAllGuitars.allGuitars.find(item => item.id == currentId));
   }, [currentId]);
 
+  // FIXME: local possible storage object structure [{id: number}]
+
+  /**
+   *
+   * @param id - guitar id which need to add
+   */
+  const addToCart = (id) => {
+    /* TODO: add ability to save into local storage
+        check first existing ones */
+  }
+
   return (
     <div className={style.aboutContainer}>
       <h2>{currentItem?.model}</h2>
@@ -37,7 +48,7 @@ function AboutGuitar(props) {
         <div className={style.info}>
           <div>
             <h3>${currentItem?.price}</h3>
-            <Button textAddCart={props.data.btnTextCard}/>
+            <Button textAddCart={props.data.btnTextCard} onClick={() => addToCart(currentId)}/>
           </div>
           <div className={style.characteristics}>
             <h3>Characteristics</h3>
